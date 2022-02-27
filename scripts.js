@@ -13,14 +13,11 @@ const addAnimation = () => {
     }
 
 
-    /*let valPixels = (Number(balls.style.bottom.split('').slice(0, -2).join('')));
-    balls.style.bottom = Number(valPixels + 2) + 'px';*/
     if(balls.style.bottom <= "650px") {
         let valPixels = (Number(balls.style.bottom.split('').slice(0, -2).join('')));
         balls.style.bottom = Number(valPixels + 2) + 'px';
         animation();
     }
-    //start.addEventListener('click', pauseAnimation )
 }
 
 
